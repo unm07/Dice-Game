@@ -1,0 +1,66 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', sans-serif;
+  text-shadow: 5px 0 #2d1109;
+  font-size: 8rem;
+  color: moccasin;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Lobster', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+button{
+  font-family: 'Lobster', cursive;
+  color: moccasin ;
+  background-color: #2d1109;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+
+button:hover{
+  transform: scaleX(1.05) scaleY(1.05);
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+}
